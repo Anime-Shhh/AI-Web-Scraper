@@ -7,7 +7,7 @@ from scrape import(
     )
 from parse import parse_with_ollama
 
-st.title("Goon Web Scraper")
+st.title("AI Web Scraper")
 url = st.text_input("Enter a Website URL: ")
 
 if st.button("Scrape Site"):
